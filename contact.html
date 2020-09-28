@@ -14,7 +14,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Title</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact</title>
   </head>
   <body>
     <div id="background">
@@ -47,28 +52,52 @@
           </ul>
         </div>
       </nav>
-      <div id="main" class="container">
-        <div class="row">
-          <h1>About Me</h1>
-        </div>
-        <br />
-        <div class="row">
-          <div class="col-12">
-            <img
-              id="selfportait"
-              src="photos/Chris_self_portait.jpeg"
-              alt="My Self Portait"
+      <!-- Top of main element -->
+      <section id="main" class="container">
+        <forum>
+          <h1>Contact</h1>
+          <!-- Name Box -->
+          <div class="input-group mb-3"></div>
+          <label for="nameTag">Name</label>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Name"
+              aria-label="Recipient's username"
+              aria-describedby="basic-addon2"
+              id="nameTag"
             />
-            <p>
-              Hi, I'm Christopher Lamb, a future web developer who spends his
-              days studying and learning new information. I've recently
-              graduated from Gloucester High School in June 2019, and I am
-              currently striving to be able to freelance websites and apps.
-            </p>
+            <div class="input-group-append"></div>
           </div>
-        </div>
-      </div>
+          <!-- Email box -->
+          <label for="basic-url">Email</label>
+          <div class="input-group mb-3">
+            <input
+              placeholder="Email"
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+            />
+          </div>
+          <!-- Text Box -->
+          <label for="message">Message</label>
+          <div class="input-group">
+            <textarea
+              placeholder="Type your message here"
+              class="form-control"
+              aria-label="With textarea"
+              id="message"
+            ></textarea>
+            <br />
+          </div>
+          <input id="submitContact" type="reset" value="Submit" />
+        </forum>
+      </section>
     </div>
+    <!-- </div> -->
+    <!-- </div> -->
     <footer id="rectangle"></footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>

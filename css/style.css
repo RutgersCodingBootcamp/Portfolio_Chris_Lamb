@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 #background {
@@ -19,19 +20,14 @@ footer {
   background-color: #50b0c5;
   border-top: 9px rgba(0, 0, 0, 0.555) solid;
 }
-
-#main {
-  background-color: #f4f5ebfd;
-  width: 700px;
-  height: 405px;
-  margin: 100px 0px 0px 70px;
-  padding: 20px 30px 0 40px;
-  box-shadow: 5px 5px 15px 1px gray;
+#main h1 {
+  margin-left: 15px;
 }
 
 nav h1 {
   color: black;
-  font-size: 30px;
+  font-size: 25px;
+  margin-right: 20px;
 }
 
 .navbar {
@@ -39,9 +35,4 @@ nav h1 {
   height: 100px !important;
   color: white !important;
   font-size: 22px;
-}
-
-#selfportait {
-  float: left;
-  margin-right: 20px;
 }

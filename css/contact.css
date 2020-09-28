@@ -1,0 +1,16 @@
+#main {
+  background-color: #f4f5ebfd;
+  width: 700px;
+  height: 500px;
+  margin: 100px 0px 0px 70px;
+  padding: 20px 30px 0 40px;
+  box-shadow: 5px 5px 15px 1px gray;
+}
+
+#submitContact {
+  height: 66px;
+  width: 115px;
+  margin-top: 26px;
+  margin-left: 14px;
+  background: #50b0c5;
+}
